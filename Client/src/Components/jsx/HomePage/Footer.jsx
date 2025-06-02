@@ -8,9 +8,9 @@ export default function Footer() {
                 <p>Creator:  Simone Serra</p>
             </div>
             <div className="link-section">
-                <a href="https://www.linkedin.com/in/simone-serra-823736340">LinkedIn</a>
-                <a href="http://">FreeLancer</a>
-                <a href="http://">GitHub</a>
+                <a href="https://www.linkedin.com/in/simone-serra-823736340" target="_blank">LinkedIn</a>
+                <a href="https://www.freelancer.com/u/simoneSerra?frm=simoneSerra&sb=t" target="_blank">FreeLancer</a>
+                <a href="https://github.com/0SimoneSerra0" target="_blank">GitHub</a>
             </div>
             <div className="space-taker"></div>
             <div className="information-section">
