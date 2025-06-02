@@ -1,0 +1,42 @@
+.homepage-footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96vw;
+    height: 8rem;
+    padding: 2vw;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0 -1vh 0.4rem 0.1rem #1d1d1d;
+    justify-content: space-between;
+}
+
+
+.creator-section{
+    display: flex;
+    color: white;
+}
+
+.link-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-section a{
+    text-decoration: none;
+    color: rgb(96, 96, 250);
+}
+
+.link-section a:hover{
+    text-decoration: underline;
+    color: rgb(147, 147, 255);
+}
+
+.space-taker{
+    flex-basis: 100%;
+    max-height: 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.information-section{
+    color: white;
+}

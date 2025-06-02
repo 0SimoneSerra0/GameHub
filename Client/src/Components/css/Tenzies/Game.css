@@ -1,0 +1,55 @@
+.main-tenzies-container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans';
+}
+
+.dice{
+    margin: 1vh 0;
+}
+
+.dice-row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50rem;
+    height: fit-content;
+    justify-content: space-around;
+    margin: 5vh auto;
+}
+
+.reroll-btn{
+    width: fit-content;
+    text-wrap: nowrap;
+    margin: 0.7rem auto;
+    font-size: 1.6rem;
+    padding: 0.7rem 1.8rem;
+    border-radius: 0.5rem;
+    color: white;
+    border-color: #9900bb;
+    background-color: #6011cc;
+    box-shadow: none;
+}
+
+.reroll-btn:hover{
+    border-color: #a801ce;
+    background-color: #6512da;
+    cursor: pointer;
+}
+
+.reroll-btn:active{
+    color: gray;
+    border-color: #8300a0;
+    background-color: #4c0ea3;
+    box-shadow: none;
+}
+
+.rolls-count{
+    margin: auto;
+    color: #291600;
+    width: 7rem;
+    min-width: fit-content;
+    text-align: center;
+    border: 0.2cqw solid #140b00;
+    border-radius: 5%;
+    padding: 0.5%;
+}

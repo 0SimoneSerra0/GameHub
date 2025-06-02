@@ -1,0 +1,74 @@
+.die{
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.12rem 0.1rem 0.12rem rgb(184, 184, 184);
+    width: 10vh;
+    height: 10vh;
+    min-height: 3rem;
+    min-width: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "a . c"
+        "e g f"
+        "d . b";
+}
+
+.die.locked{
+    background-color: rgb(136, 223, 136);
+    box-shadow: 0 0.12rem 0.1rem 0.12rem rgb(102, 153, 102);
+}
+
+.die.unlocked{
+    background-color: white;
+}
+
+.dot{
+    display: block;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    background-color: #140b00;
+    margin: 0;
+    align-self: center;
+    margin: auto;
+}
+
+
+.die.locked.wrong-die{
+    background-color: rgb(202, 66, 66);
+    box-shadow: 0 0.12rem 0.1rem 0.12rem rgb(131, 43, 43);
+
+}
+
+.die.locked.right-die{
+    background-color: rgb(72, 206, 72);
+    box-shadow: 0 0.12rem 0.1rem 0.12rem rgb(41, 129, 41);
+}
+
+
+.dot:nth-child(2) {
+    grid-area: b;
+}
+.dot:nth-child(3) {
+    grid-area: c;
+}
+.dot:nth-child(4) {
+    grid-area: d;
+}
+.dot:nth-child(5) {
+    grid-area: e;
+}
+.dot:nth-child(6) {
+    grid-area: f;
+}
+
+
+.dot:nth-child(odd):last-child {
+    grid-area: g;
+}

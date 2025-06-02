@@ -1,0 +1,47 @@
+.game-container{
+    width: 13rem;
+    height: calc(1.586956522 * 13rem);
+    background-color: #eedba6;
+
+    border-radius: 11%;
+    box-shadow: 0 0 1cqw 0.5cqw rgb(129, 113, 97);
+    transition: .2s ease;
+    flex-shrink: 0;
+    position: relative;
+    text-align: center;
+    background-image: url("/card.png");
+    background-size: cover;
+    container-type: size;
+}
+
+.game-container:hover{
+    scale: 1.05;
+    margin: 0 3.5vw 3.5vw;
+}
+
+.selected-game{
+    transform: translateY(-20%);
+    box-shadow: 0 1cqw 0.7cqw 0.2cqw rgb(129, 113, 97);
+    cursor: pointer;
+}
+
+.game-image{
+    width: 70%;
+    height: auto;
+    border-radius: 5%;
+    transition: .2s;
+    margin: 10cqh 0 0 0;
+    box-shadow: 0 0 0.5cqw 0.1cqw rgb(129, 113, 97);
+}
+
+.game-title{
+    margin: 2cqh 13cqw;
+    color: #130b00;
+}
+
+.game-description{
+    margin: 0 13cqw;
+    color: #271c0f;
+    text-overflow: ellipsis;
+    font-family: 'Oswald';
+}
