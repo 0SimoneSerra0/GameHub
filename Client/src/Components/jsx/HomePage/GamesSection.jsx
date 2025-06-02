@@ -93,6 +93,10 @@ export default function GameSection(props) {
         {
             name: "Tic Tac Toe", description: "Challenge a friend and find out who is the smartest!",
             img: "/TicTacToe.png", titleFont: 'Gochi Hand'
+        },
+        {
+            name: "Flappy B", description: "Try to get the highest score",
+            img: "/TicTacToe.png", titleFont: 'Gochi Hand'
         }
         ]);
 
