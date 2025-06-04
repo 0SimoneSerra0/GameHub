@@ -2,7 +2,7 @@ import HomePage from './Components/jsx/HomePage/HomePage'
 import Tenzies from './Components/jsx/Tenzies/Tenzies'
 import Header from "./Components/jsx/Header/Header"
 import TicTacToe from './Components/jsx/TicTacToe/TicTacToe'
-import Connect4 from './Components/jsx/FlappyB/FlappyB'
+import FlyingBird from './Components/jsx/FlyingBird/FlyingBird'
 import "./index.css"
 import { useRef, useState } from 'react';
 
@@ -19,8 +19,8 @@ export default function App() {
             return <Tenzies setPage={setPage} />
         else if (selectedPage === 'tic tac toe')
             return <TicTacToe setPage={setPage} />
-        else if (selectedPage === 'flappy b')
-            return <Connect4 />
+        else if (selectedPage === 'flying bird')
+            return <FlyingBird />
     }
 
 

@@ -1,0 +1,40 @@
+.flappyb-game-container{
+    width: 100%;
+    height: calc(80vh - 5rem);
+    background-color: rgb(245, 222, 179);
+    display: flex;
+    justify-content: flex-end;
+    container-type: size;
+}
+
+.obstacles-container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    container-type: size;
+    border-left: solid 1rem black;
+}
+
+.bottom-obstacle, .top-obstacle{
+    flex-shrink: 0;
+}
+
+.bottom-obstacle{
+    align-self:flex-end;
+}
+
+.player-container{
+    width: 10vh;
+    height: 10vh;
+    background-color: transparent;
+    position: absolute;
+    left: 8cqw;
+    transition: transform ease-in;
+}
+
+.player-sprite{
+    width: 100%;
+    height: auto;
+    transition: 0.2s ease-out;
+}

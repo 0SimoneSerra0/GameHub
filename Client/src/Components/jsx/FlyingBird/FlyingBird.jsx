@@ -1,6 +1,6 @@
 import Game from "./Game";
 
-export default function FlappyB(){
+export default function FlyingBird(){
     return(
         <>
             <Game />
