@@ -20,5 +20,5 @@ npm run dev
 ![resources/HomePage.gif](/resources/HomePage.gif)
 ![resources/Tenzies.gif](/resources/Tenzies.gif)
 ![resources/TicTacToe.gif](/resources/TicTacToe.gif)
-![resources/FlyingBird.gif](/resources/FlyingBird.gi
+![resources/FlyingBird.gif](/resources/FlyingBird.gif)
 
