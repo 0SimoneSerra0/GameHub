@@ -17,6 +17,7 @@ npm run dev
 
 
 #Screenshots
-![resources/GameHub01.png](/resources/GameHub01.png)
-![resources/GameHub02.png](/resources/GameHub02.png)
-![resources/GameHub03.png](/resources/GameHub03.png)
+![resources/HomePage.gif](/resources/HomePage.gif)
+![resources/Tenzies.gif](/resources/Tenzies.gif)
+![resources/TicTacToe.gif](/resources/TicTacToe.gif)
+![resources/FlyingBird.gif](/resources/FlyingBird.gif)

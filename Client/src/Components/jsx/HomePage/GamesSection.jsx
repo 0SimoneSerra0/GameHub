@@ -95,7 +95,7 @@ export default function GameSection(props) {
             img: "/TicTacToe.png", titleFont: 'Gochi Hand'
         },
         {
-            name: "Flying Bird", description: "Try to get the highest score",
+            name: "Flying Bird", description: "Try to get the highest score while jumping between the buildings",
             img: "/FlyingBird.png", titleFont: 'sans serif'
         }
         ]);
