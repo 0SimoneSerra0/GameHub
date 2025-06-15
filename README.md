@@ -1,5 +1,5 @@
 # GameHub
-Project made to understand the foundamentals of the React framework
+Project made to understand the fundamentals of the React framework
 
 
 # dependencies
